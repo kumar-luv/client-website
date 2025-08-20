@@ -48,8 +48,7 @@ const About = () => {
                             <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Story</h2>
                             <p className="text-lg text-gray-600 leading-relaxed mb-8">{COMPANY_INFO.description}</p>
                             <p className="text-lg text-gray-600 leading-relaxed">
-                                We believe in creating technology that not only meets current needs but anticipates future challenges. 
-                                Our team combines creativity with technical expertise to deliver solutions that drive real business value.
+                                more info.........???????
                             </p>
                         </div>
                     </div>
@@ -63,7 +62,15 @@ const About = () => {
                                 <div key={index} className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <div className="text-4xl mb-4">{value.icon}</div>
                                     <h3 className="text-xl font-semibold text-blue-900 mb-4">{value.title}</h3>
-                                    <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                                    {Array.isArray(value.description) ? (
+                                        <ul className="text-left list-disc pl-5">
+                                            {value.description.map((point, i) => (
+                                                <li key={i} className="text-gray-600 leading-relaxed">{point}</li>
+                                            ))}
+                                        </ul>
+                                    ) : (
+                                        <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                                    )}
                                 </div>
                             ))}
                         </div>

@@ -1,7 +1,7 @@
 export const SERVICES_HERO = {
     title: 'Our Services',
-    subtitle: 'Comprehensive solutions for your digital transformation',
-    description: 'We offer a wide range of technology services designed to help businesses innovate, scale, and succeed in the digital world. From custom development to cloud solutions, we have the expertise to bring your vision to life.'
+    subtitle: 'Unlocking Solutions: Explore our diverse range of tailored services designed to drive your success.',
+    description: 'More Infoooo.......???.'
 };
 
 export const MAIN_SERVICES = [

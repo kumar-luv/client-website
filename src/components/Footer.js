@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 
 const Footer = () => {
     const footerData = {
-        companyName: "MLD Solutions",
-        tagline: "Molad e Konsult",
+        companyName: "Tiaraa Global",
+        tagline: "UAE based Business Solutions and Consulting Firm",
         address: {
-            street: "123 Tech Street",
-            city: "Digital District",
-            state: "NY 10001"
+            street: "Street Address",
+            city: "City",
+            state: "State"
         },
         socialLinks: {
             twitter: "https://www.twitter.com/mldsolutions",
