@@ -1,50 +1,64 @@
 export const COMPANY_INFO = {
-    name: 'MLD Solutions',
-    tagline: 'Innovating Digital Solutions for Tomorrow',
-    description: 'We are a forward-thinking technology company dedicated to creating innovative digital solutions that empower businesses to thrive in the digital age. Our team of experts combines creativity with technical excellence to deliver exceptional results.',
-    founded: 2018,
-    teamSize: 25,
-    projectsCompleted: 150,
-    clientsServed: 80
+    name: 'Tiaraa Global',
+    tagline: 'Any tagline.....?',
+    description: 'Welcome to Tiaraa Global, UAE based business solutions and consulting firm. We are dedicated to empowering new and existing businesses  with innovative strategies and solutions that drive growth and success. Our founders are seasoned experts with rich corporate and consulting experience and have served clients across the globe. We have diverse experience in the field setting up new business, Corporate Services, Sustainability/ ESG Consulting, Project Financing, Corporate Trainings, Investing, Sales & Marketing, Brand Building, Launch of New Product. Our approach is data driven and results oriented, ensuring that our clients achieve their business goals efficiently.',
+    founded: 2025,
+    teamSize: 5,
+    projectsCompleted: 2,
+    clientsServed: 2
 };
 
 export const CORE_VALUES = [
     {
         icon: '🎯',
-        title: 'Excellence',
-        description: 'We strive for excellence in everything we do, from code quality to customer service.'
+        title: 'Tiaraa Key Differentiators',
+        description: [
+            'Each Leader with over 2 decades of experience with global reach.',
+            'Proven track record of compliance and cost savings.',
+            'Domain expertise across small, mid and large-cap businesses.',
+            'Customer-centric mindset.',
+            'Experienced team with exceptional exposure across diverse, multi-geography and multi-cultural industries.',
+            'Cutting-edge technology solutions.'
+          ]
     },
     {
         icon: '🤝',
-        title: 'Collaboration',
-        description: 'We believe in the power of teamwork and close collaboration with our clients.'
+        title: 'Tiaraa Mission',
+        description: 'To provide exceptional leadership and guidance for our clients to achieve their Business Goals and gain competitive advantage'
+          
     },
     {
         icon: '💡',
-        title: 'Innovation',
-        description: 'We constantly explore new technologies and approaches to solve complex problems.'
+        title: 'Tiaraa Vision',
+        description: ['We are passionate about the success of our clients.',
+        'We hear our customer voice and invest in our tools, techniques and technologies to improve the value we provide.',
+        'We strive to become a highly recognizable consulting brand through lasting partnerships, organic growth and collaborations.',   
+        'We lead with integrity and consciousness corporately, environmentally and socially.']
     },
     {
         icon: '🔒',
         title: 'Integrity',
-        description: 'We maintain the highest standards of integrity and transparency in all our dealings.'
+        description: ['Work as a Trusted Business Partner',
+'Practice “customer first approach”', 
+'Accountability in our commitment',
+'Deliver faster and quality results']
     },
     {
-        icon: '📈',
-        title: 'Growth',
-        description: 'We are committed to continuous learning and personal development.'
+        // icon: '📈',
+        title: 'title',
+        description: 'Description'
     },
     {
-        icon: '🌍',
-        title: 'Impact',
-        description: 'We aim to create positive impact through technology and innovation.'
+        // icon: '🌍',
+        title: 'Title',
+        description: 'Description'
     }
 ];
 
 export const LEADERSHIP_TEAM = [
     {
-        name: 'Sarah Johnson',
-        position: 'Chief Executive Officer',
+        name: 'Ankur Attrey',
+        position: 'Co-Founder, Tiaraa Global Founder CEO and Chairman, Lamer Capital',
         experience: '15+ years in technology leadership',
         expertise: 'Strategic planning, business development, team leadership'
     },
