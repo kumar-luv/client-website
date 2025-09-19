@@ -109,24 +109,6 @@ const Home = () => {
                         {HERO_SLIDESHOW_DATA[currentImageIndex].subtitle}
                     </p>
                     
-                    <div 
-                        className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn"
-                        style={{ animationDelay: '0.6s' }}
-                    >
-                        <button 
-                            onClick={() => navigate(HERO_SLIDESHOW_DATA[currentImageIndex].primaryButtonLink)}
-                            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300 transform hover:scale-105"
-                        >
-                            {HERO_SLIDESHOW_DATA[currentImageIndex].primaryButton}
-                        </button>
-                        
-                        <button 
-                            onClick={() => navigate(HERO_SLIDESHOW_DATA[currentImageIndex].secondaryButtonLink)}
-                            className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300 hover:bg-white hover:text-gray-900 transform hover:scale-105"
-                        >
-                            {HERO_SLIDESHOW_DATA[currentImageIndex].secondaryButton}
-                        </button>
-                    </div>
                 </div>
 
                 <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
@@ -144,7 +126,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="py-16 bg-gray-50">
+            {/* <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                         {stats.map((stat, index) => (
@@ -159,7 +141,7 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="py-20 bg-white">
                 <div className="container mx-auto px-4">
