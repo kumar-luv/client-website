@@ -203,7 +203,7 @@ export const SERVICES_DATA = [
   {
     title: "IT General Controls (ITGC) Services",
     normalPoints: [
-      "We provide comprehensive ITGC assessments to evaluate and enhance controls over IT systems critical to financial reporting and operations. Our services ensure compliance with Dubai and UAE regulations, industry standards like COSO and COBIT, and audit requirements. Key areas covered include access controls, change management, data security, and system monitoring. This strengthens the integrity, availability, and confidentiality of IT infrastructure, supporting regulatory compliance and operational resilience.",
+      "1. We provide comprehensive ITGC assessments to evaluate and enhance controls over IT systems critical to financial reporting and operations. Our services ensure compliance with Dubai and UAE regulations, industry standards like COSO and COBIT, and audit requirements. Key areas covered include access controls, change management, data security, and system monitoring. This strengthens the integrity, availability, and confidentiality of IT infrastructure, supporting regulatory compliance and operational resilience.",
     ],
   },
   {
@@ -242,19 +242,19 @@ export const SERVICES_DATA = [
     title: "HR & Payroll",
     subheadings: [
       {
-        title: "2. Payroll Management",
+        title: "1. Payroll Management",
         points: [
           "Provide effortless payroll navigation through structured tool and processes. We are committed to support Accurate payroll management and helpdesk services",
         ],
       },
       {
-        title: "3. Visa and Immigration Support",
+        title: "2. Visa and Immigration Support",
         points: [
           "Get your visa processed through our team of expert for reliable and timely visa services",
         ],
       },
       {
-        title: "4. Recruitment",
+        title: "3. Recruitment",
         points: [
           "Recruitment services help businesses identify, attract, and hire the right talent efficiently. By leveraging market knowledge, candidate networks, and advanced screening processes, these services ensure organizations fill critical roles with qualified professionals who align with their culture and goals. From sourcing and interviewing to onboarding support, recruitment partners simplify hiring, reduce costs, and save valuable time—allowing companies to focus on growth while building strong teams essential for long-term success.",
         ],
